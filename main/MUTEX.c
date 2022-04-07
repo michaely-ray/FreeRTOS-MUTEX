@@ -2,7 +2,7 @@
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "freertos/semphr.h"
+#include "freertos/event_groups.h"
 
 int count = 0;
 SemaphoreHandle_t mcounter;
